@@ -5,7 +5,7 @@ class TestClassComponent extends React.Component{
     {
         return(
             <div>
-                <h1>Class Component ku vanthutom.... varata maame turrrrrrrr.....</h1>
+                <h1>Class Component ku vanthutom.... varata maame turrr.....</h1>
             </div>
         )
     }
