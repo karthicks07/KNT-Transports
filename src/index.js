@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import TestComponent from './components/FunctionalComponents/testComponent';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import TestClassComponent from './components/ClassComponents/TestClassComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    <h1>This button is summa, it is for test purpose!</h1>
+    <center><a><button>Click to Wow!</button></a></center>
+    <TestComponent></TestComponent>
+  </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

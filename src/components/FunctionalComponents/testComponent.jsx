@@ -1,11 +1,10 @@
 import React from "react";
-import ReactDOM  from "react";
 import TestClassComponent from "../ClassComponents/TestClassComponent";
 function TestComponent() {
     return (
         <div>
+            <h1>Test Functional Component ku vanthachu. Next Class component ku poga porom..</h1>
             <TestClassComponent/>
-            <h1>This is a test functional component</h1>
         </div>
     )
 }

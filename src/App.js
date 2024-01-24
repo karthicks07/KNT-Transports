@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TestComponent/>
         <img src={logo} className="App-logo" alt="logo" />
-        <img src={logo} className="App-logo1" alt="logo" />
         <p>
           Visit my portfolio
         </p>

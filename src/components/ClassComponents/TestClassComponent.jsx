@@ -1,11 +1,12 @@
 import React from "react";
+import TestComponent from "../FunctionalComponents/testComponent";
 class TestClassComponent extends React.Component{
     render()
     {
         return(
             <div>
-            <h1>This is a test Class component</h1>
-        </div>
+                <h1>Class Component ku vanthutom.... varata maame turrr.....</h1>
+            </div>
         )
     }
 }
