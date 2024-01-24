@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -12,7 +13,7 @@ code {
     monospace;
 }
 
-button{
+/* button{
   height: 45px;
   width: 160px;
   background-color: rgb(46, 46, 229);
@@ -29,3 +30,13 @@ button:hover{
   transform: translateY(-10px);
   transition: 0.5s;
 }
+.button1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button1{
+  margin-right: 10 px;
+} */
