@@ -19,13 +19,13 @@ button{
   border-radius: 5px;
   color: rgb(255, 255, 255);
   border-color: transparent;
-  filter: drop-shadow(0 0 0.75rem rgb(101, 101, 244));
   text-align: center;
   font-size: 20px;
   transition: 0.5s;
+  filter: drop-shadow(0 0 0);
 }
 button:hover{
-  filter: drop-shadow(0 0 0);
-  transform: translateY(-15px);
+  filter: drop-shadow(0 0 0.75rem rgb(101, 101, 244));
+  transform: translateY(-10px);
   transition: 0.5s;
 }
