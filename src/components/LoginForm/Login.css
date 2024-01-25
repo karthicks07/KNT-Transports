@@ -113,6 +113,7 @@ tr input{
     }
     .form1{
         font-size: 16px;
+        margin-top: -30px;
     }
     .logintext{
         font-size: 35px;
