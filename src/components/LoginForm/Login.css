@@ -115,13 +115,14 @@ tr input{
     }
     .logintext{
         font-size: 35px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     .form2{
-        width: 350px;
+        width: 330px;
     }
     input{
-        height: 22px;
-        width: 270px;
+        height: 21px;
+        width: 260px;
         font-size: 15px;
     }
     tr input{
@@ -131,7 +132,7 @@ tr input{
         font-size: 15px;
     }
     button{
-        height: 40px;
-        width: 120px;
+        height: 38px;
+        width: 115px;
     }
   }
