@@ -7,10 +7,11 @@ import Login from './components/LoginForm/Login'
 import PropsComponent from './components/FunctionalComponents/PropsComponent';
 import App from './App';
 import StateComponent from './components/ClassComponents/StateComponent';
+import NavBar from './components/FunctionalComponents/NavBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-   <Login/>
+   <App/>
   </div>
 );
 

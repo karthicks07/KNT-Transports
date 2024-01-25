@@ -1,0 +1,14 @@
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: beige;
+    margin: 0px;
+    padding: 20px;
+}
+li{
+    text-decoration: none;
+    color: inherit;
+}
