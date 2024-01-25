@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from './components/LoginForm/Login'
 import PropsComponent from './components/FunctionalComponents/PropsComponent';
 import App from './App';
-
+import StateComponent from './components/ClassComponents/StateComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>

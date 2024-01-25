@@ -109,6 +109,7 @@ tr input{
     .page-container{
         background-color: rgb(157, 179, 245);
         align-items: center;
+        margin-top: auto;
     }
     .form1{
         font-size: 16px;
