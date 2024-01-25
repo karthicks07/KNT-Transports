@@ -104,3 +104,34 @@ tr input{
     justify-content: center;
     margin-top: -10px;
   }
+
+  @media (max-width:550px) {
+    .page-container{
+        background-color: rgb(157, 179, 245);
+        align-items: center;
+    }
+    .form1{
+        font-size: 16px;
+    }
+    .logintext{
+        font-size: 35px;
+    }
+    .form2{
+        width: 350px;
+    }
+    input{
+        height: 22px;
+        width: 270px;
+        font-size: 15px;
+    }
+    tr input{
+        font-size: 15px;
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    button{
+        height: 40px;
+        width: 120px;
+    }
+  }
