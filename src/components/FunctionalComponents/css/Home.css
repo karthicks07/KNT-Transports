@@ -2,7 +2,7 @@
     background-image: url(../../../images/tractor.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 583px;
   }
   
