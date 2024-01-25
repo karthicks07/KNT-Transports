@@ -1,6 +1,6 @@
 import './NavBar.css'
 import { Link } from 'react-router-dom'
-import Abt from './Abt'
+
 const NavBar=()=>
 {
     return(

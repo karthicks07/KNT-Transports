@@ -1,5 +1,4 @@
 import React from "react";
-import TestComponent from "../FunctionalComponents/testComponent";
 class TestClassComponent extends React.Component{
     render()
     {
