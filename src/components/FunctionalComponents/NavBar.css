@@ -7,8 +7,12 @@ ol{
     background-color: beige;
     margin: 0px;
     padding: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(206, 206, 206));
 }
 li{
     text-decoration: none;
     color: inherit;
+}
+.footer{
+    height: 100px;;
 }

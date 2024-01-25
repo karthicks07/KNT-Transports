@@ -5,6 +5,7 @@ import NavBar from './components/FunctionalComponents/NavBar';
 import Projects from './components/FunctionalComponents/Projects';
 import Exp from './components/FunctionalComponents/Exp';
 import Home from './components/FunctionalComponents/Home';
+import Footer from './components/FunctionalComponents/Footer'
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,21 @@ function App() {
         <Route path="/about" element={<Abt></Abt>}/>
         <Route path="/login" element={<Exp/>}/>
       </Routes>
-      <NavBar/>
+      <div>
+        <h1>
+          This is content site
+        </h1>
+        <h1>
+          This is content site
+        </h1>
+        <h1>
+          This is content site
+        </h1>
+        <h1>
+          This is content site
+        </h1>
+      </div>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
