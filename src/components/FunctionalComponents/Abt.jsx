@@ -2,8 +2,8 @@ import React from "react"
 const Abt=()=>
 {
     return(
-        <div style={{height:"500px"}}>
-            <h1>This Page is About Section</h1>
+        <div style={{height:"583px"}}>
+            <h1>This is about page.</h1>
         </div>
     )
 }

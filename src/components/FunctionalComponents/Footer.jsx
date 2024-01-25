@@ -1,16 +1,26 @@
-import './NavBar.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './Footer.css';
 
-const NavBar=()=>
-{
-    return(
-            <ol className='footer'>
-                <li><Link to="/home" style={{ textDecoration: 'none', color: 'inherit' }}>Home</Link></li>
-                <li><Link to="/about" style={{ textDecoration: 'none', color: 'inherit' }}>About</Link></li>
-                <li><Link to="/project" style={{ textDecoration: 'none', color: 'inherit' }}>Projects</Link></li>
-                <li><Link to="/login" style={{ textDecoration: 'none', color: 'inherit' }}>Login</Link></li>
-            </ol>
-    )
+const Footer = () => {
+  return (
+    <footer>
+      <div className="footer-content">
+        <div className="footer-info">
+          <h3>KNT Transports,</h3>
+          <p>Contact: +91 6381145567</p>
+          <p>Email: karthicksenthilofficial@gmail.com</p>
+        </div>
+        <div className="footer-info">
+          <h3>Address,</h3>
+          <p>8/71-8, Raghavendhira nagar, Chinna Veppanam Colony, <br />Namakkal - 637002</p>
+        </div>
+        <div className="footer-info">
+          <h3>Developed by,</h3>
+          <p><a href="https://karthicksenthil.in" target="_blank" class="details">Karthick Senthil</a></p>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default NavBar
+export default Footer;

@@ -11,7 +11,6 @@ class Login extends React.Component{
     return (
       <div className="page-container">
         <div className="form1">
-          <h1>Registration Form</h1>
           <div className="form2">
             <center>
               <div className="logintext">Login</div>

@@ -5,6 +5,7 @@ h1{
 .form1{
     color: white;
     font-size: 25px;
+    margin: -10px;
 }
 .form2{
     display: flex;
