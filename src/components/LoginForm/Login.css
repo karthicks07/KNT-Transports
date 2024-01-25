@@ -7,7 +7,6 @@ h1{
     font-size: 25px;
 }
 .form2{
-    border: 2px rgb(184, 183, 183) solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +18,7 @@ h1{
     border-radius: 10px;
     color: black;
     width: 450px;
-    filter: drop-shadow(0 0 0.70rem rgb(101, 101, 244));
+    filter: drop-shadow(0 0 0.70rem rgb(197, 197, 200));
 }
 .btns{
     display: flex;
@@ -89,7 +88,7 @@ tr input{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(157, 179, 245);
+    background-color: rgb(255, 255, 255);
   }
   .logintext{
     font-weight: 700;

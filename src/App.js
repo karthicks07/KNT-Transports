@@ -6,6 +6,7 @@ import Projects from './components/FunctionalComponents/Projects';
 import Exp from './components/FunctionalComponents/Exp';
 import Home from './components/FunctionalComponents/Home';
 import Footer from './components/FunctionalComponents/Footer'
+import Login from './components/LoginForm/Login'
 function App() {
   return (
     <div className="App">
@@ -15,22 +16,8 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/project" element={<Projects/>}/>
         <Route path="/about" element={<Abt></Abt>}/>
-        <Route path="/login" element={<Exp/>}/>
+        <Route path="/login" element={<Login/>}/>
       </Routes>
-      <div>
-        <h1>
-          This is content site
-        </h1>
-        <h1>
-          This is content site
-        </h1>
-        <h1>
-          This is content site
-        </h1>
-        <h1>
-          This is content site
-        </h1>
-      </div>
       <Footer/>
       </BrowserRouter>
     </div>

@@ -3,7 +3,7 @@ const Home=()=>
 {
     return(
         <div>
-            <h1>This Page is Home Section</h1>
+            <img src="Images\tractor img.jpg" alt="" />
         </div>
     )
 }
