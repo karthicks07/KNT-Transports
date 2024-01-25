@@ -2,8 +2,7 @@ import React from "react";
 import './Login.css'
 // ...
 
-class Login extends React.Component {
-    render() {
+function Login(){
       return (
         <div className="page-container">
           <div className="form1">
@@ -32,9 +31,9 @@ class Login extends React.Component {
             </div>
           </div>
         </div>
-      );
+      )
     }
-  }
+
 
   export default Login
   
