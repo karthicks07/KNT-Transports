@@ -36,6 +36,7 @@ input{
 }
 input::placeholder{
     padding-left: 1px;
+    font-size: 18px;
 }
 button{
     margin-top: 20px;
@@ -80,6 +81,7 @@ tr input{
     height: 45px;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
 }
 .page-container {
     display: flex;
