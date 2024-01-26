@@ -3,10 +3,6 @@ import './Login.css'
 // ...
 
 class Login extends React.Component{
-  changeState=()=>
-  {
-    console.log("Hi")
-  }
   render() {
     return (
       <div className="page-container">
@@ -34,7 +30,7 @@ class Login extends React.Component{
                 <button className="loginbtn">Login</button>
               </div>
               <div className="forget">
-                <a href="" onClick={this.changeState}>forgot password?</a>
+                <a href="#">forget password?</a>
               </div>
             </form>
           </div>
