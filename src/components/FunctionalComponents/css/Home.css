@@ -238,7 +238,7 @@
 
 .ser4:hover{
   background-color: rgb(255, 115, 0);
-  transform:rotate(-5deg);
+  transform: scale(1.07);
   transition: 0.5s;
 }
 .ser4 .overlay4{
@@ -281,7 +281,7 @@
 
 .ser5:hover{
   background-color: rgb(255, 115, 0);
-  transform:rotate(-5deg);
+  transform: scale(1.07);
   transition: 0.5s;
 }
 .ser5 .overlay5{
@@ -323,7 +323,7 @@
 
 .ser6:hover{
   background-color: rgb(255, 115, 0);
-  transform:rotate(-5deg);
+  transform: scale(1.07);
   transition: 0.5s;
 }
 .ser6 .overlay6{
