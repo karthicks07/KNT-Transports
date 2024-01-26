@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-
 const Footer = () => {
   return (
     <footer>
@@ -16,7 +15,8 @@ const Footer = () => {
         </div>
         <div className="footer-info">
           <h3>Developed by,</h3>
-          <p><a href="https://karthicksenthil.in" target="_blank" class="details">Karthick Senthil</a></p>
+          <p>Karthick Senthil</p>
+          <a href="https://karthicksenthil.in" target='_blank'>Visit Website</a>
         </div>
       </div>
     </footer>

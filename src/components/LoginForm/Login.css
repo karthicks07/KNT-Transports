@@ -21,6 +21,26 @@ h1{
     width: 450px;
     filter: drop-shadow(0 0 0.70rem rgb(197, 197, 200));
 }
+.form22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin-top: auto;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    width: 450px;
+    filter: drop-shadow(0 0 0.70rem rgb(197, 197, 200));
+}
+.lin{
+    height: 5px;
+    width: 150px;
+    background-color: rgb(255,115,0);
+    margin-top: -20px;
+}
 .btns{
     display: flex;
     flex-direction: row;
@@ -43,7 +63,7 @@ button{
     margin-top: 20px;
     height: 45px;
     width: 160px;
-    background-color: rgb(46, 46, 229);
+    background-color: rgb(255,115,0);
     border-radius: 50px;
     color: rgb(255, 255, 255);
     border-color: transparent;
@@ -54,7 +74,7 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 button:hover{
-    filter: drop-shadow(0 0 0.50rem rgb(101, 101, 244));
+    filter: drop-shadow(0 0 0.50rem rgb(233, 131, 14));
     transform: translateY(-10px);
     transition: 0.5s;
     cursor: pointer;
@@ -95,8 +115,9 @@ tr input{
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
-    color: blue;
-    text-shadow: 0 0 6px rgb(96, 96, 238);
+    color: rgb(255,115,0);
+    text-shadow: 0 0 3px rgb(237, 114, 19);
+    margin-top: 40px;
   }
   .forget-link {
     font-size: 14px; 
@@ -107,10 +128,14 @@ tr input{
     text-decoration: none;
 }
 
+.lh1{
+    color: rgb(1, 3, 101);
+    font-size: 40px;
+    margin-top: -30px;
+}
 
   @media (max-width:769px) {
     .page-container{
-        background-color: rgb(157, 179, 245);
         align-items: center;
         height: 100vh;
     }
