@@ -98,14 +98,15 @@ tr input{
     color: blue;
     text-shadow: 0 0 6px rgb(96, 96, 238);
   }
-  .forget{
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -10px;
-    color: black;
-  }
+  .forget-link {
+    font-size: 14px; 
+    color: #666;
+    margin-top: -20px; 
+    text-align: center; 
+    display: block; 
+    text-decoration: none;
+}
+
 
   @media (max-width:769px) {
     .page-container{

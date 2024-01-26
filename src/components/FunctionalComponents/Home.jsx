@@ -17,6 +17,9 @@ const Home = () => {
                 </div>
             </div>
             <h1 className='serviceh1'>Our <span>S</span>ervices</h1>
+            <div className='line'>
+                <div className='line1'></div>
+            </div>
             <div className="services" id='SERVICES'>
                 <div className='ser1'>
                     <div className='overlay1'>
@@ -30,24 +33,24 @@ const Home = () => {
                 </div>
                 <div className='ser3'>
                 <div className='overlay3'>
-                        <h1>Croping</h1>
+                        <h1>Harvesting</h1>
                     </div>
                 </div>
             </div>
             <div className="services">
             <div className='ser4'>
                     <div className='overlay4'>
-                        <h1>Ploughing</h1>
+                        <h1>Rotavating</h1>
                     </div>
                 </div>
                 <div className='ser5'>
                 <div className='overlay5'>
-                        <h1>Croping</h1>
+                        <h1>Barling</h1>
                     </div>
                 </div>
                 <div className='ser6'>
                 <div className='overlay6'>
-                        <h1>Croping</h1>
+                        <h1>Construction <br />Materials</h1>
                     </div>
                 </div>
             </div>

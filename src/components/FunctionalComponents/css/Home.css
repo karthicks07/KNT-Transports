@@ -187,7 +187,7 @@
   border-radius: 10px;
   filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
   transition: 0.5s;
-  background-image: url(../../../images/plough.webp);
+  background-image: url(../../../images/harvest.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@
   border-radius: 10px;
   filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
   transition: 0.5s;
-  background-image: url(../../../images/plough.webp);
+  background-image: url(../../../images/rotavators.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@
 
 .ser4:hover{
   background-color: rgb(255, 115, 0);
-  transform: scale(1.07);
+  transform:rotate(-5deg);
   transition: 0.5s;
 }
 .ser4 .overlay4{
@@ -273,7 +273,7 @@
   border-radius: 10px;
   filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
   transition: 0.5s;
-  background-image: url(../../../images/plough.webp);
+  background-image: url(../../../images/barler.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@
 
 .ser5:hover{
   background-color: rgb(255, 115, 0);
-  transform: scale(1.07);
+  transform:rotate(-5deg);
   transition: 0.5s;
 }
 .ser5 .overlay5{
@@ -315,7 +315,7 @@
   border-radius: 10px;
   filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
   transition: 0.5s;
-  background-image: url(../../../images/plough.webp);
+  background-image: url(../../../images/construction.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -323,7 +323,7 @@
 
 .ser6:hover{
   background-color: rgb(255, 115, 0);
-  transform: scale(1.07);
+  transform:rotate(-5deg);
   transition: 0.5s;
 }
 .ser6 .overlay6{
@@ -350,7 +350,18 @@
   transform: translateY(0);
 }
 
-
+.line{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.line1{
+  height: 5px;
+  width: 200px;
+  background-color: rgb(255, 115, 0);
+  border-radius: 50px;
+  margin-top: -20px;
+}
 
 
   @media (max-width:725px) {
@@ -376,5 +387,33 @@
         color: white;
         margin-top: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+      }
+      .services{
+       margin-bottom: 20px;
+      }
+      .ser1{
+        width: 350px;
+        margin-bottom: 40px;
+      }
+      .ser2{
+        width: 350px;
+        margin-bottom: 40px;
+      }
+      .ser3{
+        width: 350px;
+        margin-bottom: 40px;
+      }
+      .ser4{
+        width: 350px;
+        margin-top: -35px;
+        margin-bottom: 40px;
+      }
+      .ser5{
+        width: 350px;
+        margin-bottom: 40px;
+      }
+      .ser6{
+        width: 350px;
+        margin-bottom: 40px;
       }
   }
