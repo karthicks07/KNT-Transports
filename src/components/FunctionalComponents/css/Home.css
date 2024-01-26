@@ -53,38 +53,32 @@
   .T {
     color: rgb(255, 115, 0);
   }
-.ser{
-  height: 250px;
-  width: 400px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
-  transition: 0.5s;
-}
-.services{
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  transition: 0.5s;
-  margin-bottom: 80px;
-}
-
-.btnn{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 10px;
-}
-.btn1{
+  
+  
+  .services{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    margin-bottom: 80px;
+  }
+  
+  .btnn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  .btn1{
   background-color: rgb(255, 115, 0);
   border-radius: 7px;
 }
 .btn2{
-    background-color: rgb(255, 115, 0);
-    border-radius: 7px;
+  background-color: rgb(255, 115, 0);
+  border-radius: 7px;
 }
 .btn1:hover
 {
@@ -100,12 +94,265 @@
   transition: 0.5s;
   cursor: pointer;
 }
+/* from this */
+.ser1{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/plough.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-.ser:hover{
+.ser1:hover{
   background-color: rgb(255, 115, 0);
   transform: scale(1.07);
   transition: 0.5s;
 }
+.ser1 .overlay1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser1:hover .overlay1{
+  opacity:0.8;
+  color: white;
+}
+
+.ser1:hover h1{
+  transform: translateY(0);
+}
+/* to this */
+/* from this */
+.ser2{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/crop.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ser2:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+.ser2 .overlay2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser2:hover .overlay2{
+  opacity:0.8;
+  color: white;
+}
+
+.ser3:hover h1{
+  transform: translateY(0);
+}
+
+.ser3{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/plough.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ser3:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+.ser3 .overlay3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser3:hover .overlay3{
+  opacity:0.8;
+  color: white;
+}
+
+.ser3:hover h1{
+  transform: translateY(0);
+}
+
+
+.ser4{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/plough.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ser4:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+.ser4 .overlay4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser4:hover .overlay4{
+  opacity:0.8;
+  color: white;
+}
+
+.ser4:hover h1{
+  transform: translateY(0);
+}
+/* to this */
+/* from this */
+.ser5{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/plough.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ser5:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+.ser5 .overlay5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser5:hover .overlay5{
+  opacity:0.8;
+  color: white;
+}
+
+.ser5:hover h1{
+  transform: translateY(0);
+}
+
+.ser6{
+  height: 250px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  transition: 0.5s;
+  background-image: url(../../../images/plough.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ser6:hover{
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+.ser6 .overlay6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,115,0);
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.ser6:hover .overlay6{
+  opacity:0.8;
+  color: white;
+}
+
+.ser6:hover h1{
+  transform: translateY(0);
+}
+
+
+
+
   @media (max-width:725px) {
     .homebody {
         background-image: url(../../../images/tractor1.png);
