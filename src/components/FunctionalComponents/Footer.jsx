@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-info">
           <h3>KNT Transports,</h3>
-          <p>Contact: +91 6381145567</p>
+          <p>N Balraj,</p>
+          <p>Contact: +91 9442231030</p>
           <p>Email: karthicksenthilofficial@gmail.com</p>
         </div>
         <div className="footer-info">

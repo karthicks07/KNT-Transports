@@ -1,0 +1,194 @@
+
+.productsh1 {
+    font-size: 50px;
+    color: rgb(1, 3, 101);
+    margin-top: 15px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.line1 {
+    height: 5px;
+    width: 150px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 50px;
+    margin-top: -25px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.outerbox{
+    height: 350px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.innerbox{
+    margin-top: 40px;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.75rem rgb(186, 186, 186));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.innerbox:hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+.i1{
+    height: 270px;
+    width: 260px;
+    background-color: antiquewhite;
+    background-image: url(../../../images/plough1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i11{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i11 h1{
+    color:rgb(1, 3, 101)
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.trac{
+    margin-top: 20px;
+    height: 50px;
+    width: 70px;
+    background-image: url(../../../images/cartoon.png);
+    background-size: cover;
+}
+.truck{
+    margin-top: 20px;
+    height: 50px;
+    width: 70px;
+    background-image: url(../../../images/dump.png);
+    background-size: cover;
+}
+.i2{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/crop1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i22{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i22 h1{
+    color: rgb(1, 3, 101);
+}
+.i3{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/harvest1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i33{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i33 h1{
+    color: rgb(1, 3, 101);
+}
+.i4{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/rotavators.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i44{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i44 h1{
+    color: rgb(1, 3, 101);
+}
+.i5{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/sand.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i55{
+    text-align: left;
+    height: 270px;
+    width: 260px;
+}
+.i55 h1{
+    color: rgb(1, 3, 101);
+}
+.i6{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/bricks.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i66{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i66 h1{
+  color : rgb(1, 3, 101);
+}
+.i7{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/jalli.webp);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i77{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i77 h1{
+    color: rgb(1, 3, 101);
+}
+.i8{
+    height: 270px;
+    width: 260px;
+    background-image: url(../../../images/hallow.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.i88{
+    height: 270px;
+    width: 260px;
+    text-align: left;
+}
+.i88 h1{
+    color: rgb(1, 3, 101);
+}
