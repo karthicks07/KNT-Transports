@@ -1,5 +1,5 @@
 import React from 'react';
-import '../FunctionalComponents/css/Home.css'; // Import your component-specific CSS file here
+import '../FunctionalComponents/css/Home.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
