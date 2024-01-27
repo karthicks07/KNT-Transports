@@ -9,6 +9,7 @@ nav {
     height: 70px;
     padding-top: 20px;
     box-sizing: border-box;
+    
 }
   
   ul {
@@ -18,12 +19,13 @@ nav {
     display: flex;
     display: flex;
     justify-content: space-evenly;
+    
   }
   
   li {
     margin-right: 20px;
     color: rgb(255, 255, 255);
-
+    transition: 0.2s;
 
   }
   
@@ -33,3 +35,11 @@ nav {
     font-weight: bold;
     font-size: 16px;
   }
+.navhoverclr:hover{
+  color: rgb(255,115,0);
+  
+}
+.navhover:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
