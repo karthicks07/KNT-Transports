@@ -3,6 +3,10 @@ import '../FunctionalComponents/css/Home.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+    const scrollToServices = () => {
+        const servicesElement = document.getElementById('SERVICES');
+        servicesElement.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <div>
             <div className="container">
@@ -12,15 +16,15 @@ const Home = () => {
                     <p className="subtopic">Empowering agriculture with efficient field solutions and supplying top-quality construction materials, <br />Our tractor business is dedicated to driving productivity in both agri-field operations and construction projects.</p>
                 </div>
                 <div className="btnn">
-                    <a href="#"><button className="btn1" style={{ fontSize: "20px" }}>Services</button></a>
+                    <a href="#"><button className="btn1" style={{ fontSize: "20px" }} onClick={scrollToServices}>Services</button></a>
                     <button className="btn2"><Link to="/product" style={{ fontSize: "20px" }}>Products</Link></button>
                 </div>
             </div>
-            <h1 className='serviceh1'>Our <span>S</span>ervices</h1>
+            <h1 className='serviceh1' id='SERVICES'>Our <span>S</span>ervices</h1>
             <div className='line'>
                 <div className='line1'></div>
             </div>
-            <div className="services" id='SERVICES'>
+            <div className="services" >
                 <div className='ser1'>
                     <div className='overlay1'>
                         <h1>Ploughing</h1>
