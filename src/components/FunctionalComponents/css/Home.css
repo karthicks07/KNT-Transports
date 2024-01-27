@@ -374,15 +374,15 @@
     
       }
     .topic {
-        font-size: 50px;
+        font-size: 40px;
         color: white;
-        margin-top: 200px;
+        margin-top: 150px;
         margin-bottom: 20px;
         filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
       }
       .subtopic {
         margin: 0;
-        font-size: 17px;
+        font-size: 16px;
         padding: 10px;
         color: white;
         margin-top: 20px;
@@ -390,6 +390,12 @@
       }
       .services{
        margin-bottom: 20px;
+      }
+      .serviceh1{
+        font-size: 40px;
+      }
+      .line1{
+        width: 130px;
       }
       .ser1{
         width: 320px;
