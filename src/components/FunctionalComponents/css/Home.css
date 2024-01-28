@@ -12,8 +12,25 @@
     margin-top: 180px;
     margin-bottom: 20px;
     filter: drop-shadow(0 0 0.75rem rgb(32, 32, 32));
+    transition: 0.3s;
   }
-  
+  .blink{
+    animation: animate 0.5s linear infinite; 
+    filter: none;
+  }
+  @keyframes animate { 
+    0% { 
+        opacity: 0; 
+    } 
+
+    50% { 
+        opacity: 1.6; 
+    } 
+
+    100% { 
+        opacity: 0; 
+    } 
+} 
   .subtopic {
     margin: 0;
     font-size: 24px;
