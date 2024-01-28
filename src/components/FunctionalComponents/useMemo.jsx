@@ -8,7 +8,7 @@ const Memo=()=>
     const [dark,updatetheme]=useState(false)
     function doubleNumberSlow(number)
     {
-        return 2*number
+        return 2* number
     }
     const theme= useMemo(()=>{
         return {
