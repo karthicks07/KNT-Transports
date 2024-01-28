@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className="btnn">
                     <button className="btn1" style={{ fontSize: "20px" }} onClick={scrollToServices}>Services</button>
-                    <button className="btn2"><Link to="/product" style={{ fontSize: "20px" }}>Products</Link></button>
+                    <Link to="/product" style={{ fontSize: "20px" }}><button className="btn2">Products</button></Link>
                 </div>
             </div>
             <h1 className='serviceh1' id='SERVICES'>Our <span>S</span>ervices</h1>
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='btnn' style={{ marginBottom: "40px", marginTop: "-40px" }}>
-                <button className='btn1'><Link to="/product" style={{ fontSize: "20px" }}>Products</Link></button>
+            <Link to="/product" style={{ fontSize: "20px" }}><button className='btn1'>Products</button></Link>
             </div>
         </div>
     );

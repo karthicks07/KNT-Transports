@@ -31,35 +31,7 @@ footer {
   .details{
     color: white;
   }
-  .github{
-    height: 30px;
-    width: 30px;
-    background-image: url(../../images/github.png);
-    background-size: cover;
-  }
-  .linkedin{
-    height: 30px;
-    width: 30px;
-    background-image: url(../../images/likedin..png);
-    background-size: cover;
-  }
-  .mail{
-    height: 30px;
-    width: 30px;
-    background-image: url(../../images/mail.png);
-    background-size: cover;
-  }
-  .insta{
-    height: 30px;
-    width: 30px;
-    background-image: url(../../images/insta.png);
-    background-size: cover;
-  }
-.img-flex{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
+  
   @media (max-width:725px) {
     .footer-content{
         padding-left: 20px;
