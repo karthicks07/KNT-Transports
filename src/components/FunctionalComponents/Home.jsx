@@ -16,7 +16,7 @@ const Home = () => {
                     <p className="subtopic">Empowering agriculture with efficient field solutions and supplying top-quality construction materials, <br />Our tractor business is dedicated to driving productivity in both agri-field operations and construction projects.</p>
                 </div>
                 <div className="btnn">
-                    <a href="#"><button className="btn1" style={{ fontSize: "20px" }} onClick={scrollToServices}>Services</button></a>
+                    <button className="btn1" style={{ fontSize: "20px" }} onClick={scrollToServices}>Services</button>
                     <button className="btn2"><Link to="/product" style={{ fontSize: "20px" }}>Products</Link></button>
                 </div>
             </div>
