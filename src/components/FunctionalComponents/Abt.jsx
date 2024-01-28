@@ -25,6 +25,7 @@
 // export default Abt
 
 import { useReducer } from "react";
+import { Link } from "react-router-dom";
 const value = {count:0}
 function countfunction(state,action)
 {
@@ -50,6 +51,9 @@ const Abt=()=>
             <button onClick={()=> updatecount({type:"sub"})}>-</button>
             <button onClick={()=> updatecount({type:"add"})}>+</button>
             <button onClick={()=> updatecount({type:"res"})}>Reset</button>
+            <br /><br /><br />
+            <Link to="/useref"><button>useRef example</button></Link>
+            <Link to="/memo"><button>useMemo example</button></Link>
         </div>
     )
 }

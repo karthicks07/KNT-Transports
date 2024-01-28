@@ -192,3 +192,8 @@
 .i88 h1{
     color: rgb(1, 3, 101);
 }
+
+button.swal2-styled.swal2-confirm {
+    background-color: rgb(255, 115, 0); 
+    color: white;
+  }
