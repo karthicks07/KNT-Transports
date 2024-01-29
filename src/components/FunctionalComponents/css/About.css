@@ -28,7 +28,6 @@
 }
 .abtinner{
     height: 450px;
-    filter: drop-shadow(0 0 0.60rem rgb(122, 122, 122));
     width: 1300px;
     display: flex;
     flex-direction: row;
@@ -36,6 +35,7 @@
     align-items: center;
 }
 .cont1{
+    filter: drop-shadow(0 0 0.60rem rgb(122, 122, 122));
     height: 390px;
     width: 400px;
     border-radius: 20px;
@@ -45,6 +45,7 @@
 }
 .cont11{
     height: 390px;
+    filter: drop-shadow(0 0 0.60rem rgb(122, 122, 122));
     width: 400px;
     border-radius: 20px;
     background-image: url(../../../images/about2.jpg);
