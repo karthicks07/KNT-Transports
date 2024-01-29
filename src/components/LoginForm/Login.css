@@ -2,12 +2,9 @@ h1{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.form1{
-    color: white;
-    font-size: 25px;
-    margin: -10px;
-}
+
 .form2{
+    border: 5px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,25 +12,29 @@ h1{
     font-size: 23px;
     margin-top: auto;
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0);
     border-radius: 10px;
     color: black;
     width: 450px;
-    filter: drop-shadow(0 0 0.70rem rgb(197, 197, 200));
+    filter: drop-shadow(0 0 0.70rem rgb(51, 51, 51));
+    backdrop-filter: blur(20px);
 }
 .form22{
+    border: 5px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 23px;
     margin-top: auto;
-    height: 600px;
-    background-color: rgb(255, 255, 255);
+    height: 630px;
+    background-color: rgb(0, 0, 0,0);
     border-radius: 10px;
     color: black;
     width: 450px;
-    filter: drop-shadow(0 0 0.70rem rgb(197, 197, 200));
+    filter: drop-shadow(0 0 0.70rem rgb(51,51,51));
+    backdrop-filter: blur(20px);
+    
 }
 .lin{
     height: 5px;
@@ -109,23 +110,26 @@ tr input{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
-  }
+    background-image: url(../../images/1.1.jpg); 
+    background-size: cover;
+}
+
   .logintext{
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     color: rgb(255,115,0);
     text-shadow: 0 0 3px rgb(237, 114, 19);
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .forget-link {
     font-size: 14px; 
-    color: #666;
+    color: #ffffff;
     margin-top: -20px; 
     text-align: center; 
     display: block; 
     text-decoration: none;
+    font-weight: 100;
 }
 
 .lh1{
@@ -133,11 +137,39 @@ tr input{
     font-size: 40px;
     margin-top: -30px;
 }
+.signuptext{
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.account{
+    font-size: 17px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.sign{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.signn{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
 
   @media (max-width:769px) {
     .page-container{
         align-items: center;
-        height: 100vh;
+        height: 103vh;
     }
     .form1{
         font-size: 16px;
@@ -148,8 +180,8 @@ tr input{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     .form22{
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin-top: 80px;
+        margin-bottom: 50px;
         width: 330px;
         border: 2px rgb(184, 183, 183) solid;
     }

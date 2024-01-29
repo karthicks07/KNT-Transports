@@ -26,7 +26,7 @@ const Products = () => {
               <h3>₹799/hour</h3>
               <div className="but">
               <button className="btn1" onClick={clickalert}>Request</button>
-              <div className="trac"></div>
+                  <div className="trac"></div>
               </div>
             </div>
         </div>

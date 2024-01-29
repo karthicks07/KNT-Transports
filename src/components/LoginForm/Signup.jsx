@@ -24,13 +24,19 @@ const Signup =()=>{
                     <td><input type="email" placeholder="Email" /></td>
                   </tr>
                   <tr>
+                    <td><input type="number" placeholder="Phone (+91)" /></td>
+                  </tr>
+                  <tr>
                     <td><input type="password" placeholder="Password" /></td>
                   </tr>
                 </tbody>
               </table>
               <div className="btns">
-               <button className="loginbtn">Signup</button>
-                <Link to="/login"><button className="signupbtn">Login</button></Link>
+               <button className="btn1">Signup</button>
+              </div>
+              <div className="signn">
+              <p className="account">Already have an account?</p>
+              <Link to="/login" className="signuptext">Login</Link>
               </div>
 
             </form>

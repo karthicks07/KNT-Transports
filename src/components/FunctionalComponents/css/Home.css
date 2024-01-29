@@ -117,7 +117,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/plough.webp);
   background-size: cover;
@@ -160,7 +160,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/crop.webp);
   background-size: cover;
@@ -202,7 +202,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/harvest.jpg);
   background-size: cover;
@@ -245,7 +245,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/rotavators.jpg);
   background-size: cover;
@@ -288,7 +288,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/barler.jpg);
   background-size: cover;
@@ -330,7 +330,7 @@
   width: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.95rem rgb(221, 221, 221));
+  filter: drop-shadow(0 0 0.95rem rgb(170, 170, 170));
   transition: 0.5s;
   background-image: url(../../../images/construction.jpg);
   background-size: cover;

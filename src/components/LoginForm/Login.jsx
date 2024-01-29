@@ -26,11 +26,13 @@ const Login =()=>{
                 </tbody>
               </table>
               <div className="btns">
-               <Link to="/signup"><button className="signupbtn">Signup</button></Link>
-                <button className="loginbtn">Login</button>
+                <button className="btn1">Login</button>
               </div>
               <a href="#" className="forget-link">forget password?</a>
-
+              <div className="sign">
+              <p className="account">Did't have an account?</p>
+              <Link to="/signup" className="signuptext">Signup</Link>
+              </div>
             </form>
           </div>
         </div>
