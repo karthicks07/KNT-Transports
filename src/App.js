@@ -20,8 +20,6 @@ function App() {
         <Route path="/about" element={<Abt/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
-        <Route path="/useref" element={<UseRefComponent/>}/>
-        <Route path="/memo" element={<Memo/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

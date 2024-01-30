@@ -17,7 +17,7 @@ h1{
     color: black;
     width: 450px;
     filter: drop-shadow(0 0 0.70rem rgb(51, 51, 51));
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
 }
 .form22{
     border: 2px solid rgb(0, 0, 0);

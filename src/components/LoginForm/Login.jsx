@@ -4,9 +4,45 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 // ...
 
 function Login() {
+
+  const clickpop=()=>{
+    const Toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      showConfirmButton: false,
+      timer: 4000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.onmouseenter = Swal.stopTimer;
+        toast.onmouseleave = Swal.resumeTimer;
+      }
+    });
+    Toast.fire({
+      icon: "success",
+      title: "Logged in successfully"
+    });
+  }
+  const clickpop1=()=>{
+    const Toast = Swal.mixin({
+      toast: true,
+      position: "top-end",
+      showConfirmButton: false,
+      timer: 4000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.onmouseenter = Swal.stopTimer;
+        toast.onmouseleave = Swal.resumeTimer;
+      }
+    });
+    Toast.fire({
+      icon: "error",
+      title: "No account found, Signup to continue!"
+    });
+  }
   
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -19,8 +55,11 @@ function Login() {
     console.log(res.data)
     if (res.data.loggedIn === true){
         navigate("/")
+        clickpop()
     }
-    setErrorMessage('Login up successful!');
+    else if(res.data.loggedIn==false){
+      clickpop1()
+    }
   }
   return (
     <div className="page-container">

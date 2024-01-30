@@ -2,27 +2,42 @@ import React, { useState } from "react";
 import './Login.css'
 import { Link } from "react-router-dom";
 import axios from "axios";
-
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 function Signup() {
-  //   const [courseName,updateCourseName]=useState("KNT") 
-  //   const updateCourse = async(event) =>{
-  //     event.preventDefault()
-  //     const res=await axios.get("http://localhost:3001/signup")  
-  //     updateCourseName(res.data)   
-  //     console.log(res.data)
-  //   }
-
+  const navigate = useNavigate();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
 
+
+const clickpop2=()=>
+{
+  const Toast = Swal.mixin({
+    toast: true,
+    position: "top-end",
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.onmouseenter = Swal.stopTimer;
+      toast.onmouseleave = Swal.resumeTimer;
+    }
+  });
+  Toast.fire({
+    icon: "success",
+    title: "Signed in successfully, Login to continue!"
+  });
+}
+
+  
   const handleSubmit = async(event) => {
     event.preventDefault();
     const res = await axios.post("http://localhost:3001/signup", { name: name, email: email, phone: phone, password: password })
     console.log(res.data)
-    setErrorMessage('Sign up successful!');
+    navigate("/login");
+    clickpop2()
   };
 
   return (
@@ -53,7 +68,6 @@ function Signup() {
             </table>
             <div className="btns">
               <button className="btn1" type="submit">Signup</button>
-              <p className="error-message">{errorMessage}</p>
             </div>
             <div className="signn">
               <p className="account">Already have an account?</p>
