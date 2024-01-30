@@ -1,20 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import './Login.css'
 import { Link } from "react-router-dom";
 import Login from "./Login";
+import axios from "axios"
 // ...
 
 const Signup =()=>{
+  const[cname,updateCname]=useState("KNTT")
+  const updatecname=async(event)=>{
+    event.preventDefault();
+    const res=await axios.get("https://localhost:3001/signup/")
+    updateCname(res.data)
+    console.log(res)
+  }
     return (
       <div className="page-container">
         <div className="form1">
           <div className="form22">
-            <h1 className="lh1">KNT Transports</h1>
+            <h1 className="lh1">{cname?.cName} Transports</h1>
             <div className="lin"></div>
             <center>
               <div className="logintext">Signup</div>
             </center>
-            <form>
+            <form onSubmit={updatecname}>
               <table>
                 <tbody>
                   <tr>
@@ -32,7 +40,7 @@ const Signup =()=>{
                 </tbody>
               </table>
               <div className="btns">
-               <button className="btn1">Signup</button>
+               <button className="btn1" type="submit">Signup</button>
               </div>
               <div className="signn">
               <p className="account">Already have an account?</p>
