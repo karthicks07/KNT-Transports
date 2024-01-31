@@ -68,7 +68,7 @@ function Login() {
           <h1 className="lh1">KNT Transports</h1>
           <div className="lin"></div>
           <center>
-            <div className="logintext">Login</div>
+            <div className="logintext">Loginn</div>
           </center>
           <form onSubmit={handleSubmit}>
             <table>
