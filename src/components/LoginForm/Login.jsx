@@ -40,7 +40,7 @@ function Login() {
     });
     Toast.fire({
       icon: "error",
-      title: "No account found, Signup to continue!"
+      title: "Invalid email or password"
     });
   }
   
