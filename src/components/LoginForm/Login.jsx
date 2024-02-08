@@ -51,7 +51,7 @@ function Login() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const res = await axios.post("http://karthicksenthil.vercel.app/login",{email:email,password:password})
+    const res = await axios.post("http://localhost:3001/login",{email:email,password:password})
     console.log(res.data)
     if (res.data.loggedIn === true){
         navigate("/")
