@@ -34,7 +34,7 @@ const clickpop2=()=>
   
   const handleSubmit = async(event) => {
     event.preventDefault();
-    const res = await axios.post("http://localhost:3001/signup", { name: name, email: email, phone: phone, password: password })
+    const res = await axios.post("http://karthicksenthil.vercel.app/signup", { name: name, email: email, phone: phone, password: password })
     console.log(res.data)
     navigate("/login");
     clickpop2()
