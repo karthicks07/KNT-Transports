@@ -2,7 +2,7 @@ import React from 'react';
 import '../FunctionalComponents/css/Home.css';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Home = () => { 
     const scrollToServices = () => {
         const servicesElement = document.getElementById('SERVICES');
         servicesElement.scrollIntoView({ behavior: 'smooth' });
