@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="background-image"></div>
                 <div className="content">
                     <h1 className="topic">KNT <span className='T'>T</span>ransports.<span className="blink">|</span></h1>
-                    <p className="subtopic">Empowering agriculture with efficient field solutions and supplying top-quality construction materials, <br />Our tractor business is dedicated to driving productivity in both agri-field operations and construction projects.</p>
+{/*                     <p className="subtopic">Empowering agriculture with efficient field solutions and supplying top-quality construction materials, <br />Our tractor business is dedicated to driving productivity in both agri-field operations and construction projects.</p> */}
                 </div>
                 <div className="btnn">
                     <button className="btn1" style={{ fontSize: "20px" }} onClick={scrollToServices}>Services</button>
